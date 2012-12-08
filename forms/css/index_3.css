@@ -1,0 +1,139 @@
+/* ----------- level-3.html ------------*/
+
+html {
+	
+		background: url("../images/beige.gif");
+
+}
+#sign-up {
+			width: 960px;	
+			position: relative;
+}
+
+#container {
+		
+		border:outset;
+		width: 640px;
+		height: 600px;
+		position:absolute;
+		top: 40px;
+		left: 380px;
+	
+}
+
+#container-inner {
+		
+		padding: 3px;
+		border: none;
+	
+}
+
+fieldset {
+		
+		width: 600px;
+		background-color: rgba(255, 240, 250, 0.6); 
+		margin-top: 20px;
+		border:groove;
+}
+
+h1 {
+		color:  #C1FFC1;
+		text-align:center;
+		background-color: gray;
+		border-radius: 30px;
+}
+
+/*---- this is the main section ----*/
+.log-in {
+		
+		margin: 0 0 -20px 15px;
+		
+}
+
+#e_mail, #passwrd, #passwrd_con, #field-profile-link  {
+	
+		margin-right: 135px;
+		text-align: right;
+}
+
+#email, #password, #password_confirmation, #profile_link  {
+	
+		width: 200px;
+		margin-left: 10px;
+}
+
+#email:focus, #password:focus, #password_confirmation:focus, #profile_link:focus {
+	
+		background-color: blue;
+}
+
+
+/*---- this is the Birthdate section ----*/
+#section-dob {
+		
+		width: 570px;
+	 	background-color: rgba(125, 158, 192, 0.6);
+}
+
+select#dob_month, select#dob_day, select#dob_year {
+		
+		width: 88px;
+	
+}
+
+select#dob_month {
+		
+		margin-left: 10px;
+		
+}
+
+select#dob_day {
+	
+		margin-left: 25px;
+		
+}
+
+select#dob_year {
+	
+		margin-left: 22px;
+		
+}
+
+.note {
+	
+		color: #A0522D;
+		margin-top: 20px;
+}
+
+#field-agree-tos ul li {
+	
+		list-style-type: none;
+		text-indent: -40px;
+}
+
+/*---- this is the submit button ----*/
+#submit {
+		
+		float: right;
+		width: 150px;
+		color: #C1FFC1;
+		background-color: gray;
+		border: 3px solid #C1FFC1;
+		
+}
+
+#submit:hover {
+		
+		color: gray;
+		background-color: #C1FFC1;
+		border: 3px solid gray;
+		
+}
+
+#submit:active {
+		
+		color: gray;
+		background-color: #C1FFC1;
+		border: 3px solid gray;
+		
+}

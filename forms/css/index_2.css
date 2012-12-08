@@ -1,0 +1,108 @@
+/* ----------- level-2.html ------------*/
+html {
+		
+		background: url('../images/kool_aid_man_waving1.jpg') no-repeat;
+		background-position: center right;
+		min-height: 100%;
+}
+
+
+#container {
+		
+		width: 430px;
+		height: 550px;
+		margin: 25px 370px 0;
+		background-color: rgba(170,170,170,0.6);
+		border-radius: 70px;
+
+		
+}
+
+#container-inner {
+		
+		width: 420px;
+		margin: 0 auto;
+		padding: 4px;
+		border: none;
+
+}
+
+h1 {
+		color: #EE2C2C;
+		text-align: center;
+}
+
+fieldset{
+		
+		background-color: rgba(255, 250, 250, 0.4);
+		width: 390px;
+		height: 390px;
+		margin: 10px;
+}
+
+form {
+		margin-left: -9px;
+}
+
+label#feedback {
+	
+	
+		
+}
+
+input#name {
+		
+		width: 185px;
+		margin: 0 60px 10px;
+		
+}
+
+input#name:focus {
+		
+		background-color: #EEEE00;
+		
+}
+
+input#email {
+		
+		width: 225px;
+		margin: 0 7px 10px;
+		
+	
+}
+
+input#email:focus {
+		
+		background-color: #EEEE00;
+		
+	
+}
+
+textarea#feedback {
+		
+		margin-left: 36px;
+	
+}
+
+textarea#feedback:focus {
+		
+		background-color: #EEEE00;
+	
+}
+
+ input#submit{
+		
+		
+		width: 100px;
+		margin: 15px 150px 0;
+		background-color: #63B8FF;
+		
+}
+
+ input#submit:hover {
+		
+		border-radius: 15px;
+		background-color: #B0E2FF;
+			
+}
+

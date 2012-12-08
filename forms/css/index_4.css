@@ -1,0 +1,140 @@
+/* ----------- level-4.html ------------*/
+* {
+		margin: 0;
+		padding: 0;	
+}
+
+html {
+		
+	background-color: gray;	
+		
+}
+
+#edit-profile {
+		
+		width: 960px;
+		margin: auto;
+		border: groove;
+		padding-bottom: 50px;
+		background-color: #87CEFF;
+		
+}
+
+#container {
+	
+		width: 900px;
+		margin: auto;
+		overflow: hidden;
+}
+
+h1 {
+		
+		text-align: center;
+		color: 	#838B8B;
+}
+
+fieldset {
+
+		clear: both;
+		width: 900px;
+		margin: auto;
+		background-color: #F0FFFF;
+}
+
+fieldset#gender, fieldset#section-dob {
+		
+		width: 870px;
+		margin: 10px;
+		background-color: #C1CDCD;
+				
+}
+
+
+#dob_year, #dob_month, #dob_day {
+	
+		float: left;
+		margin: 10px;
+}
+
+.note {
+	
+		float: right;
+}
+
+input {
+	
+		float: left;
+		margin: 10px;
+}
+
+label {
+	
+		float: left;
+		margin: 10px;
+}
+
+
+
+input#your_photo:focus {
+		
+		background-color: #87CEFF;
+	
+}
+
+input#firstname:focus {
+		
+		background-color: #87CEFF;
+	
+}
+
+input#lastname:focus {
+		
+		background-color: #87CEFF;
+	
+}
+
+textarea#about_you:focus {
+	
+		background-color: #87CEFF;
+}
+
+input#website_url:focus {
+		
+		background-color: #87CEFF;
+	
+}
+
+input#website_name:focus {
+	
+		background-color: #87CEFF;
+	
+}
+
+/*---- this is the submit button ----*/
+#submit {
+		
+		clear: both;
+		float: right;
+		width: 100px;
+		color: #87CEFF;
+		background-color: gray;
+		border: 3px solid #87CEFF;
+		border-radius: 35px;
+		
+}
+
+#submit:hover {
+		
+		color: gray;
+		background-color: #87CEFF;
+		border: 3px solid gray;
+		
+}
+
+#submit:active {
+		
+		color: #87CEFF;
+		background-color: #C1FFC1;
+		border: 3px solid gray;
+		
+}
