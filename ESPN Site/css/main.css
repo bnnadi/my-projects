@@ -1,0 +1,180 @@
+html{
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.65) 24%, rgba(0,0,0,0.49) 53%, rgba(0,0,0,0.25) 81%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(24%,rgba(0,0,0,0.65)), color-stop(53%,rgba(0,0,0,0.49)), color-stop(81%,rgba(0,0,0,0.25)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 24%,rgba(0,0,0,0.49) 53%,rgba(0,0,0,0.25) 81%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 24%,rgba(0,0,0,0.49) 53%,rgba(0,0,0,0.25) 81%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 24%,rgba(0,0,0,0.49) 53%,rgba(0,0,0,0.25) 81%,rgba(0,0,0,0) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 24%,rgba(0,0,0,0.49) 53%,rgba(0,0,0,0.25) 81%,rgba(0,0,0,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+}
+
+ul{
+	padding: 0;
+}
+
+#wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+
+header{
+	position: relative;
+	z-index: 1000000;
+}
+
+header .top-bar{
+	border: 0 none;
+	padding: 1px;
+	height: 24px;
+}
+
+header .top-bar .nav-edition{
+	font: 11px 'Helvetica','Arial','Sans-Serif';
+	padding: 0;
+	position: relative
+}
+
+header .top-bar .nav-edition.editions{
+	z-index: 1000000;
+}
+
+header .top-bar .nav-edition label{
+	color:#aaa;
+	float: left;
+	font-size: 10px;
+	padding: 6px 0 0;
+	position: relative;
+}
+
+header .main{
+	border: 0 none;
+	float: left;
+	padding: 3px;
+	margin-top: -1px;
+	width: auto;
+	list-style: none;
+}
+
+header .main li{
+	padding: 0 9px 0 8px;
+	float: left;
+	list-style: none;	
+}
+
+header .main li .last{
+	background: none repeat scroll 0 center transparent;
+}
+
+header .main li a{
+	color: #ccc;
+	display: block;
+	height: 1%;
+	margin-bottom: -3px;
+	padding: 3px 0 4px;
+	text-decoration: none;
+}
+
+header .main li a:hover{
+	border-bottom: 3px solid #fff !important;
+	border-left-color: #666;
+	border-right-color: #666;
+	border-top-color: #666;
+	color: #fff;
+	margin-bottom: -3px;
+	padding-bottom: 1px;
+	text-decoration: none;
+}
+
+header .main li .dropdown{
+	padding-left:  0;
+}
+
+header .main li .dropdown ul{
+	background: none repeat scroll 0 center transparent;
+	border-radius: 4px;
+	color: #666;
+	display: block;
+	height: 16px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	top: 3px;
+	width: 47px;
+	z-index: 1000000;
+}
+
+header .main li .dropdown ul:hover{
+	background: none repeat scroll 0 0 #fff;	
+	border: 1px solid #ccc;
+	height: auto;
+	overflow: visible;
+	padding-bottom: 6px;
+	width: 120px;
+}
+
+header .main li .dropdown ul li{
+	background: none repeat scroll 0 center transparent;
+	border: 0 none;
+	display: block;
+	padding: 0 6px;
+}
+
+header .main li .dropdown ul li .selected{
+	background: url(more-sprite.png) no-repeat scroll transparent;
+	color: #ccc;
+	padding: 3px 6px; 
+}
+
+header .main li .dropdown ul:hover li .selected{
+	background-position: 0 0;
+	color: #515151;
+}
+
+header .main li .dropdown ul li a{
+	color: #333;
+	display: block;
+	margin-bottom: 0;
+	padding: 3px 6px 1px !important;
+}
+
+header .main li .dropdown ul li a:hover{
+ 	background: none repeat scroll 0 0 #DE0808;
+    border-bottom: 0 none !important;
+    color: #fff;
+    text-decoration: none;
+}
+
+header .signin-social{
+	float: right;
+	width: auto;
+}
+
+header .signin{
+	float: right;
+	width: auto;
+}
+
+#espn-logo{
+	clear: left;
+}
+
+#ad-top{
+	margin: 15px auto;
+}
+
+.main-content{
+	float: left;
+	width: 600px;
+	padding: 0 10px;
+	margin: 0 5px;
+}
+
+.sidebar{
+	float: left;
+	width: 320px;
+}
+
+article{
+	background-color: #fff;
+}
