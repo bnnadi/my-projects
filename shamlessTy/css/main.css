@@ -13,11 +13,17 @@ body {
 	overflow: hidden;
 }
 
-.top-bar h1 {
+h1 {
 	float: left;
 	width: 600px;
 	font-size: 30px;
 	margin: 20px 0;
+	color: #fff;
+}
+
+h1 a {
+	text-decoration: none;
+	color: #fff;
 }
 
 .top-bar nav {
@@ -28,23 +34,30 @@ body {
 	border-bottom-left-radius: 15px;
 }
 
-.top-bar ul {
+nav ul {
 	margin: 0;
 	padding: 0;
 }
 
-.top-bar li {
+nav li {
 	float: left;
 	width: 75px;
 	list-style: none;
 	text-align: center;
 }
 
-.top-bar a {
+nav a {
 	display: block;
 	text-decoration: none;
 	height: 30px;
 	line-height: 30px;
+	color: #fff;
+}
+
+nav a:hover {
+	text-decoration: underline;
+	color: #000;
+	font-weight: bold;
 }
 
 section {
@@ -61,6 +74,11 @@ aside {
 
 aside img {
 	margin-left: 40px;
+}
+
+aside a {
+	color: #fff;
+	text-decoration: none;
 }
 
 footer {
