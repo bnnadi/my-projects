@@ -1,0 +1,182 @@
+/*--- My Reset ---*/
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, pre, a, abbr, acronym, address, del, dfn, em, img, ins, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, article, aside, details, embed, figure, figcaption, footer, header, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+	padding: 60px 0 0 10px;
+	background-image: url(../img/subtle_grunge.png);
+}
+
+body h3, body h4 {
+	color: #122546;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+.logo {
+	background-image: url(../img/new_logo.png);
+	height: 66px;
+	width: 200px;
+	display: block;
+	top: 0;
+	position: fixed;
+	z-index: 1031;
+	text-indent: -9999px;
+}
+
+header .logo-phone {
+	background-image: url(../img/new_logo-mobile.png);
+	height: 66px;
+	width: 127px;
+	display: block;
+	text-indent: -9999px;
+}
+
+.nav li, .nav .navbar-search {
+	margin-top: 10px;
+}
+
+.nav li a {
+	text-align: center;
+}
+
+.nav #selected {
+	border-bottom: 3px solid #C1CEDE;
+}
+
+.nav .dropdown-menu a {
+	text-align: left;
+}
+
+.nav .dropdown-menu a:hover {
+	background-color: #354465;
+}
+
+#over_logo {
+	margin-top: -8px;
+	margin-right: 25%;
+}
+
+.box {
+	border: 1px dashed #333;
+	background-color: #feffff;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+article label {
+	color: #354465;
+}
+
+article .well {
+	background-color: #C1CEDE;
+}
+
+article .well a{
+	color: #354465;
+}
+
+article .btn {
+   border-top: 1px solid #122546;
+   background: #354465;
+   background: -webkit-gradient(linear, left top, left bottom, from(#122546), to(#354465));
+   background: -webkit-linear-gradient(top, #122546, #354465);
+   background: -moz-linear-gradient(top, #122546, #354465);
+   background: -ms-linear-gradient(top, #122546, #354465);
+   background: -o-linear-gradient(top, #122546, #354465);
+   padding: 8px 16px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 15px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+
+article .btn:hover {
+   border-top-color: #354465;
+   background: #354465;
+   color: #feffff;
+   }
+
+article .btn:active {
+   border-top-color: #122546;
+   background: #122546;
+   }
+
+#well_adjust {
+	background-color: #C1CEDE;
+	font-size: 1.4em;
+	padding: 5%;
+}
+
+#well_adjust p strong {
+	color: #feffff;
+}
+
+article p strong {
+	color: #354465;
+}
+
+aside li a {
+	color: #354465;
+}
+
+.bing_map{
+	display: block;
+}
+
+footer {
+	text-align: center;
+}
+
+/* Media Quiers */
+@media (max-width: 1140px) {
+  body {
+
+  }
+}
+
+@media (min-width: 481px) and (max-width: 800px) {
+		form {
+			margin: 0 auto;
+		}
+
+		.box aside .mobile {
+			margin: 0 auto;
+	}
+}
+
+@media (max-width: 480px) {
+ 	.box {
+  		border: none;
+		background-color: transparent;
+		padding: 0;
+  	}
+
+  	.box form {
+  		width: 100%;
+  	}
+
+}
+
+
