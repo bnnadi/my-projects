@@ -47,6 +47,7 @@ header .logo-phone {
 
 .nav li, .nav .navbar-search {
 	margin-top: 10px;
+	margin-right: 20px;
 }
 
 .nav li a {
@@ -63,6 +64,11 @@ header .logo-phone {
 
 .nav .dropdown-menu a:hover {
 	background-color: #354465;
+}
+
+#mobile {
+	font-size: 185%;
+	margin-top: 25%;
 }
 
 #over_logo {
@@ -143,6 +149,12 @@ aside li a {
 
 .bing_map{
 	display: block;
+	width: 600px;
+	height: 400px;
+}
+
+input {
+	width: 60%;
 }
 
 footer {
